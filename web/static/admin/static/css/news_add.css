@@ -1,0 +1,90 @@
+﻿/* 共同 */
+.form-group{
+	margin-top: 13px;
+}
+/* 添加资讯新闻  news_add.css */
+.news_add_Img{
+	    margin-left: -10px;
+        margin-top: 14px!important;
+}
+.news_add_file{
+	    margin-top: 13px;
+	    margin-bottom: 13px;
+}
+.news_add_save{
+	    margin-right: 13px;
+}
+/* 活动添加  activity_add.jsp */
+.activity_add_save{
+	    margin-right: 13px;
+}
+/* 联系我们  about.jsp */
+.about_add_save{
+	    margin-right: 13px;
+}
+@media ( min-width :768px) {
+	.about_col.col-sm-2,.about_col.col-xs-8,.about_col.col-sm-9{
+		   float:none;
+	}
+}
+.about_con{
+	       	     margin: auto!important;
+	       	     text-align: center!important;
+	       	     margin-bottom: 10px!important;
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.about_textarea_main{
+	     margin: auto!important;
+}
+/* 通知公告 inform_add.jsp */
+.inform_add_save{
+	    margin-right: 13px;
+}
+.literature_add_Img{
+	    margin-left: -10px;
+        margin-top: 14px!important;
+}
+.literature_add_file{
+	   margin-top: 13px;
+	    margin-bottom: 13px;
+}
+.literature_add_save{
+	    margin-right: 13px;
+}
+/* 研究院简介 */
+@media ( min-width :768px) {
+	.intro_col.col-sm-2,.intro_col.col-xs-8,.intro_col.col-sm-9,.intro_col.col-xs-9{
+	     margin: auto!important;
+		   float:none;
+	}
+	.intro_col.col-sm-9 {
+		  width: 98%;
+	}
+	.intro_col.col-sm-2 {
+    width: 20.666667%;
+}
+}
+.intro_con{
+	    font-size: 16px;
+	    letter-spacing: 2px;
+	    font-weight: bold;
+	    text-align: center;
+	    margin-bottom: 10px;
+	    clear: both;
+}
+.intro_add_save{
+	    margin-right: 13px;
+}
+.intro_Title{
+	    text-align: left;
+    float: left!important;
+    text-indent: 1%;
+        font-size: 16px;
+}
+.intro_Title span{
+	font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}

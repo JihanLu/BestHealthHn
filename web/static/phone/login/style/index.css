@@ -1,0 +1,215 @@
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, hr, pre, form, fieldset, input, textarea, p, blockquoteth, td { margin: 0px; padding: 0px;}
+h1, h2, h3, h4, h5, h6 { font-size: 1em; font-weight: normal; }
+input[type="button"], input[type="submit"], input[type="reset"] {
+	-webkit-appearance : none ;
+}
+ul, ol { list-style: none; }
+img{margin:0;padding:0;}
+a{text-decoration:none;color:#333;}
+em,i{font-style: normal;}
+body{
+    font-family:"Microsoft Yahei",Tahoma,Arial,Helvetica,STHeiti;
+    font-size:1em;
+
+}
+* {
+    margin:0;
+    padding:0;
+    border:0;
+}
+input,textarea,select{
+    font-family:"Microsoft Yahei";
+}
+@media screen and (max-width:320px) {
+    body{font-size:0.9em;}
+}
+@media screen and (min-width:321px) and (max-width:400px){
+    body{font-size:1em;}
+}
+
+.top_head{
+    z-index: 999;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+.heading{
+    width:100%;
+    height:50px;
+    line-height:50px;
+    color:#333;
+    text-align:center;
+    font-size:18px;
+    letter-spacing:1px;
+    background-color: #fff;
+}
+.heading span{
+    margin-right: 18px;
+}
+.heading a.back{
+    width:12px;
+    height:22px;
+    float:left;
+    display:inline-block;
+    background:url(../images/header01.png) no-repeat;
+    margin-top:14px;
+    margin-left:18px;
+}
+
+.heading a.share{
+    display:inline-block;
+    width:35px;
+    height:35px;
+    background: url(../images/bbi.png) no-repeat;
+    float:right;
+    background-size:60%;
+    margin-top:15px;
+    margin-right:0px;
+}
+
+.head_bottom{
+    width:100%;
+    height:5px;
+    background-image:url(../images/xuxian_bj.jpg);
+}
+/*------------------*/
+.bj{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    top:0;
+    left:0;
+}
+.bj img{
+    width: 100%;
+    height: 100%;
+
+}
+.logo{
+           width: 40%;
+           margin: 22% auto 20% auto;
+}
+
+.logo img{
+    width: 100%;
+}
+.denglu{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+/*     background-color: #fff; */
+    border-radius: 0.7em;
+    overflow: hidden;
+  /*   box-shadow: 1px 1px 4px rgba(0,0,0, 0.5); */
+
+}
+.denglu h1{
+    width: 100%;
+    font-size: 1.16em;
+    background-color: #f0f0f0;
+    line-height: 3em;
+    color: #666;
+}
+.denglu p {
+    width: 90%;
+    margin: 3% auto;
+   /*  border-bottom: 1px solid #d9d9d9; */
+    height:50px;
+    line-height: 50px;
+}
+.denglu p input{
+    width: 80%;
+    font-family: "microsoft Yahei";
+    font-size: 1.2em;
+    border: none;
+    /* color: #999; */
+    text-indent: 10px;
+    outline: none;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+ /*    background-color: #243240; */
+        background-color: rgba(0,0,0,0.01);
+}
+.denglu p.yzm{
+    text-align: left;
+    position: relative;
+}
+.denglu p.yzm input{
+    width: 50%;
+    padding-left: 2%;
+    float: left;
+    margin-top: 5px;
+}
+.denglu p.yzm a{
+    /*	position: absolute;
+        bottom: 6%;
+        right: 5%;*/
+    display: inline-block;
+    width: 39%;
+    text-align: center;
+    background-color: #808080;
+    line-height: 2.3em;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1em;
+    margin: 0;
+    float: right;
+    margin-top: 3px;
+}
+.denglu p i{
+    color: #5091D2;
+    font-size: 1.5em;
+    margin-right: 3%;
+    vertical-align: -4px;
+}
+.denglu h2{
+       width: 100%;
+    margin: 7% auto 0 auto;
+    background-color: #bcaf70;
+    color: #fff;
+    line-height: 2.3em;
+    border-radius: 0.4em;
+    font-size: 1.2em;
+}
+.denglu a{
+   float: left;
+    font-size: 0.9em;
+    margin: 5% 0;
+    display: block;
+    color: #6d6d6d;
+    font-size: 1.06em;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.zhuce{
+    width: 80%;
+    text-align: center;
+    margin: 7% auto 0 auto;
+
+}
+.zhuce a{
+    color: #fff;
+    width: 100%;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.24);
+    line-height: 2.5em;
+    border-radius: 0.4em;
+    font-size: 1.1em;
+}
+input[placeholder], [placeholder], *[placeholder] { 
+color:#fff !important; 
+} 
+.login{
+	       width: 100%;
+      margin: 3% auto 0 auto;
+      background-color: #5091D2;
+    color: #fff;
+    line-height: 2.3em;
+    border-radius: 0.4em;
+    font-size: 1.2em;
+}
+.zc{float: right!important}

@@ -1,0 +1,125 @@
+@font-face{
+    font-family:f;
+    src:url(font/f.TTF); font-weight:normal; font-style:normal;)
+}
+* {
+    margin:0;
+    padding:0;
+    border:0;
+}
+body,div,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}
+.checkbox_item{position: absolute;left: 0px;top: 0px;}
+body{font-family: 'f';background-color:#f2f2f2;letter-spacing: 1px;}
+.top{width:100%;height:50px;text-align:center;line-height: 50px;position:relative;background-color:#51c3ee;}
+.topimg{position: absolute;left: 3%;top: 0px;}
+.tm{height:43px;margin-top: 3px;}
+.tit{padding:4px 0px!important;}
+.top span{font-size:1.5rem;color: #ffffff;}
+h4{color:#ff0202;text-align: center;margin-top:0.625px;margin-bottom: 10px;font-size: 0.7rem}
+.name{width:96%;height: 40px;padding-left:4%;line-height: 40px;background-color: #ffffff;margin-bottom:7px;}
+.nametext{width:50%;height:40px;font-size:1.2rem;line-height:40px;outline:0px;}
+.n{font-size: 1.2rem;margin-right:10px;}
+.confim{width: 96%;
+    height: 40px;
+    padding-left: 4%;
+    line-height: 40px;
+    background-color: #ffffff;
+    margin-bottom: 7px;}
+#yzm{
+    width: 3.5rem;
+    float:right;
+    font-size: 1rem;}
+.psw{width:96%;height: 40px;padding-left:4%;line-height: 40px;background-color: #ffffff;margin-bottom:7px;}
+.card{width:96%;height: 40px;padding-left:4%;line-height: 40px;background-color: #ffffff;margin-bottom:7px;}
+
+.ip{width:96%;height: 40px;padding-left:4%;line-height: 40px;background-color: #ffffff;margin-bottom:7px;}
+.code{width:96%;height: 40px;padding-left:4%;line-height: 40px;background-color: #ffffff;margin-bottom:7px;}
+.codes{font-size: 1.2rem;margin-right:30px;}
+.con{width:96%;height: 40px;padding-left:4%;line-height: 40px;background-color: #ffffff;margin-bottom:7px;}
+.cons{width:96%;height: 40px;padding-left:4%;line-height: 40px;background-color: #ffffff;margin-bottom: 16px;}
+.consQQ{font-size:1.2rem;margin-right:30px;}
+.anonce{width: 90%;height:35px;line-height:35px;background-color: #51c3ee;text-align:center;border-radius: 5px;margin: auto;color: #ffffff;font-size: 1rem;margin-top:12px;}
+.res{  
+    clear: both;
+    width: 90%;
+    margin-left: 5%;
+    height: 70px;
+    line-height: 35px;
+}
+.sure{width:90%;margin:auto;height: 30px;margin-bottom: 7%;}
+.re{
+   width: 100%;
+    text-align: center;
+    background-color: #51c3ee;
+    /* height: 35px; */
+    /* line-height: 35px; */
+    margin: auto;
+    font-size: 1rem;
+    font-size: 1rem;
+    padding: 2.4% 0% 1.5% 0%;
+    color: #fff;
+    letter-spacing: 2px;
+}
+#si{background-color:none!important;}
+.zhlogin{
+    width: 100%;
+    height: 30px;
+    margin: auto;
+    font-size: 1.4rem;
+    color: #a8a7a7;
+    line-height: 30px;
+    clear: both;
+    margin-top: 6px;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.zhlogin a{color: #5964F7;text-decoration: none;font-size: 1.2rem;}
+.navs{width: 100%;height: 47px;background-color:#e5e5e5;}
+.nav{width:90%;height: 47px;line-height: 47px;margin: auto;}
+.nav ul li{list-style: none;float: left;}
+.nav ul li a{text-decoration: none;color:#090909;font-size: 1.5rem;}
+.navli{width:30%;text-align: center;border: 1px solid red;}
+.bottoms{
+    width: 100%;
+    height: 2.5rem;
+    background-color: #e5e5e5;
+    text-align: center;
+    clear: both;
+    line-height: 2.5rem;
+    letter-spacing: 0.6px;
+    font-size: 0.875rem;
+    /*border: 1px solid red;*/
+    margin-top: 0.125px;
+}
+.codess{
+	float: right;
+    width: 4.2rem;
+    height: 2.5rem;   
+    font-size: 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    background: url("/home/register/images/2.png") no-repeat;
+    background-size: 100% 100%;
+}
+.bottoms a{text-decoration: none;color:#090909;font-size: 1rem;}
+.bottomsspan{margin: 0rem 0.25rem;}
+
+.v{
+    background-color: red;}
+.footer{width: 100%;
+    height: 80px;
+    margin:auto;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top:0.9rem!important;
+    letter-spacing:1px;}
+.sele1{
+    position: absolute;
+    left: 0px;
+    top: 300px;
+    width: 90%;
+    margin-left: 5%;
+    height: 20px;
+    line-height: 20px;
+}
+#cb{visibility: hidden;}

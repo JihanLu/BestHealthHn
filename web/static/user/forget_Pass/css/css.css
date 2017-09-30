@@ -1,0 +1,234 @@
+.b12 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.h12l20 {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 20px;
+	color: #333333;
+	text-decoration: none;
+}
+.h12l20:link {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 20px;
+	color: #333333;
+	text-decoration: none;
+}
+.h12l20:hover {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 20px;
+	color: #ff6600;
+	text-decoration: none;
+}
+.h14 {
+	font-family: "宋体";
+	font-size: 14px;
+	color: #333333;
+	text-decoration: none;
+}
+.h14:link {
+	font-family: "宋体";
+	font-size: 14px;
+	color: #333333;
+	text-decoration: none;
+}
+.h14:hover {
+	font-family: "宋体";
+	font-size: 14px;
+	color: #ff6600;
+	text-decoration: none;
+}
+.menu14 {
+	font-family: "宋体";
+	font-size: 14px;
+	color: #515151;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+
+}
+.menu14:link {
+	font-family: "宋体";
+	font-size: 14px;
+	color: #515151;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+
+}
+.menu14:hover {
+	font-family: "宋体";
+	font-size: 14px;
+	color: #ff6600;
+	text-decoration: none;
+	letter-spacing: 0.1em;
+
+}
+.lpic {
+	background-image: url(outline/lpic.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.dir12 {
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: normal;
+	color: #3D849B;
+	text-decoration: none;
+}
+.dir12:link {
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: normal;
+	color: #3D849B;
+	text-decoration: none;
+}
+.dir12:hover {
+	font-family: "宋体";
+	font-size: 12px;
+	font-weight: normal;
+	color: #ff6600;
+	text-decoration: underline;
+}
+.h12l28 {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 28px;
+	color: #333333;
+	text-decoration: none;
+}
+.h12l28:link {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 28px;
+	color: #333333;
+	text-decoration: none;
+}
+.h12l28:hover {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 28px;
+	color: #ff6600;
+	text-decoration: none;
+}
+.kaitit {
+	font-family: "楷体_GB2312";
+	font-size: 21px;
+	font-weight: bold;
+	color: #E77421;
+	text-decoration: none;
+}
+.time12 {
+	font-family: "宋体";
+	font-size: 12px;
+	color: #628BA5;
+	text-decoration: none;
+}
+.h14l22 {
+	font-family: "宋体";
+	font-size: 14px;
+	line-height: 22px;
+	color: #333333;
+	text-decoration: none;
+}
+.m12b:hover {
+    font-family: "宋体";
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFD99;
+    text-decoration: none;
+}
+.m12b:link {
+    font-family: "宋体";
+    font-size: 12px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.Contend-Lt-toux {
+    height: auto;
+    width: auto;
+    max-width: 666px;
+    margin-left: 60px;
+    clear: both;
+    margin-top: 10px;
+    border-bottom: 2px solid rgba(203, 203, 203, 0.35);
+}
+.Contend-Lt-toux p {
+    line-height: 80px;
+    font-size: 16px;
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB",
+ "\5b8b\4f53", sans-serif;
+}
+.Contend-Lt-touxx {
+    width: 82px;
+    height: 82px;
+    border-radius: 82px;
+    border: 4px solid white;
+    text-align: center;
+    box-shadow: 1px 1px 3px 1px #646464;
+    line-height: 80px;
+    float: left;
+    clear: left;
+    overflow: hidden;
+}
+.fixed {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    opacity: 0.3;
+    z-index: 9999;
+    background: rgb(0, 0, 0);
+    display: none;
+}
+.Contend-Lt-touxx img{
+	width: 100%;
+    height: 100%;
+}
+.info_save{
+	  background: url(../images/2525.jpg) no-repeat;
+	  background-size: 100% 100%;
+	  border: none;
+	  width: 79px;
+	  line-height: 28px;
+	  color: #fff;
+	  /* margin: auto; */
+	  text-align: center;
+	  display: block;
+	  /* margin-top: 10px; */
+	  /* float: right; */
+	  /* margin-right: 52px; */
+	  /* margin: auto; */
+	  margin-top: 13px;
+	  margin-left: 201px;
+	  margin-bottom: 14px;
+}
+ .old_pass,.new_pass,.old_iphone,.show_code{
+     width: 300px;
+     height: 30px;
+     border: 1px solid #e8e8e8;
+     border-radius: 5px;
+     margin-top: 9px;
+     text-indent: 8px;
+     letter-spacing: 2px;
+ } 
+ .new_pass,.old_iphone{
+    margin-top: 15px;
+ }
+ .nick{
+  margin-left: 20px;
+ }
+ .code{
+ border: none;
+    letter-spacing: 2px;
+    font-size: 28px;
+    margin-left: 10px
+ }
+ .chang{
+     color: #000;
+ }

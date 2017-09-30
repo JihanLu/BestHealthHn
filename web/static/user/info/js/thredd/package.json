@@ -1,0 +1,15 @@
+{
+    "list": [
+        {   
+            "fa_ID":"1",
+            "fa_Name":"要回复人",
+            "hui_ID":"2",
+            "hui_Name":"被回复人",
+            "user_Img": " /beishite1/forum/images/user_Head.jpg",
+            "user_Name": "ctf",
+            "user_Time": "2017年10月2日 18:50:10",
+            "con": "你好你好你好"
+        }
+    ],
+    "session":1
+}

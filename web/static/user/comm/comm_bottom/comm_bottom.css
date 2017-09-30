@@ -1,0 +1,5 @@
+@CHARSET "UTF-8";
+/*footer*/
+.footer { width:1002px; background:url(footerline.gif) top left repeat-x; padding:16px 0px 18px 0px; color:#4f4f4f; font-size:12px; }
+.footer a { color:#000; text-decoration:underline; }
+.footer a:hover { color:#0b7fd9; text-decoration:underline; }

@@ -1,0 +1,360 @@
+
+.header_shequ{
+    width: 100%;
+    background: url(/home/tribune/images/bg.jpg) no-repeat top left;
+    background-size: 145%;
+    position: relative;
+    padding: 7% 0;
+}
+.header_shequ .touxiang{
+    position: absolute;
+    left: 2%;
+    top: 3%;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    border: 4px solid #fff;
+    overflow: hidden;
+}
+.header_shequ .touxiang img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.header_shequ .message{
+    margin-left: 95px;
+}
+.header_shequ .message strong{
+    display: block;
+    font-size: 1.2em;
+    color: #134398;
+    border-bottom: 1px solid rgba(0,0,0,.35);
+    padding-bottom: 3px;
+}
+.header_shequ .message p{
+    line-height: 1.5em;
+    margin-bottom: 1%;
+    font-size: 1.1em;
+}
+.header_shequ .message em{
+    padding-left: 22px;
+    background: url(/home/tribune/images/dongtai.png) no-repeat left center;
+    background-size: 19px;
+}
+.header_shequ .message a.mine{
+    position: absolute;
+    right: 3%;
+    bottom: 13%;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #134398;
+    width: 38px;
+    height: 38px;
+    padding: 0% 0%;
+    font-size: 1.2em;
+    display: inline-block;
+    text-align: center;
+    line-height: 43px;
+}
+.header_shequ .message a{
+    position: absolute;
+    right: 3%;
+    bottom: 22%;
+    background-color: #ff4800;
+    border-radius: 5px;
+    color: #fff;
+    padding:0% 1%;
+    font-size: 1.2em;
+    display: inline-block;
+    text-align: center;
+}
+.header_shequ .message a i{
+    font-size: 1.4em;
+}
+
+.header_shequbrand{
+    width: 100%;
+    background: url(../images/header_bj.jpg) no-repeat top left;
+    background-size: 120%;
+    position: relative;
+    padding: 7% 0;
+}
+.header_shequbrand .touxiang{
+    position: absolute;
+    left: 2%;
+    top: 3%;
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    border: 3px solid rgba(135,135,135,.22);
+    overflow: hidden;
+}
+.header_shequbrand .touxiang img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.header_shequbrand .message{
+    margin-left: 95px;
+}
+.header_shequbrand .message strong{
+    display: block;
+    font-size: 1.2em;
+    color: #134398;
+    border-bottom: 1px solid rgba(0,0,0,.35);
+    padding-bottom: 3px;
+}
+.header_shequbrand .message p{
+    line-height: 1.5em;
+    margin-bottom: 1%;
+    font-size: 1.1em;
+}
+.header_shequbrand .message em{
+    padding-left: 22px;
+    background: url(../images/dongtai.png) no-repeat left center;
+    background-size: 19px;
+}
+.header_shequbrand .message a{
+    position: absolute;
+    right: 3%;
+    bottom: 15%;
+    background-color: #ff4800;
+    border-radius: 5px;
+    color: #fff;
+    padding: 1% 2%;
+    font-size: 0.9em;
+}
+.header_shequbrand .message a i{
+    font-size: 1.1em;
+    margin-left: 4px;
+}
+.xian{
+    width: 100%;
+}
+.xian img{
+    width: 100%;
+    display: block;
+}
+.nav{
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #d6dbe7;
+    background-color: #fff;
+    margin-bottom: 4%;
+    z-index: 999;
+}
+.nav a{
+    display: inline-block;
+    float: left;
+    width: 33.1%;
+    border-right: 1px solid #dadada;
+    padding:2% 0;
+    color: #252525;
+    font-size: .9em;
+}
+.bran a{
+    display: inline-block;
+    float: left;
+    width:24.7%;
+    border-right: 1px solid #dadada;
+    padding:2% 0;
+    color: #252525;
+    font-size: .9em;
+}
+.nav a i{
+    display: block;
+    font-size: 1.2em;
+    color: #adb1b3;
+}
+.nav a i.current{
+    color:#134398;
+}
+.hot{
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid #d6dbe7;
+    position: relative;
+    padding:2% 5%;
+    margin-bottom: 4%;
+}
+.hot p{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    width: 98%;
+    line-height: 1.8em;
+    padding-left: 23px;
+    background: url(/home/community/images/hot.png) no-repeat left center;
+    background-size: 17px;
+    color: #393939;
+}
+.hot a{
+    position: absolute;
+    right: 3%;
+    top: 18%;
+    display: inline-block;
+    border:1px solid #bbb;
+    border-radius: 5px;
+    text-align: center;
+    padding:2% 2%;
+    color: #585858;
+}
+.hot a em{
+    display: block;
+}
+#acontent{width: 100%;height: auto;}
+.content{
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 4%;
+}
+.content .name{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 2%;
+    padding: 0 5%;
+    padding-top: 3%;
+}
+.content .name img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 5%;
+}
+.content .name a{
+    text-align:left;
+    /* float: left; */
+    color: #484848;
+    margin-left: 5px;
+    margin-top: 4%;
+    display: block;
+}
+.content .name a em,.content .name a span{
+    display: block;
+}
+.content .name a em{
+    font-size: 1.1em;
+}
+.content .name a span{
+    font-size: .8em;
+
+}
+.content h3{
+	color: #090909;
+	font-size: 1.1rem;
+	overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.content .article{
+
+    /* text-align: justify; */
+    line-height: 1.5em;
+    font-size: 1.2rem;
+  
+    word-break: break-all;
+    
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    margin-top: 2%;
+    font-size: 1rem;
+    width: 100%;
+    text-indent: 2em;
+    height: 3rem;
+}
+.content .picture{
+    width: 100%;
+    overflow: hidden;
+    margin: 3% 0;
+    padding-left: 1%;
+}
+.content .picture img{
+    width: 32.33%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+.content .pinglun{
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #cfd1d5;
+    border-right: none;
+    border-left: none;
+}
+.content .pinglun a{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #343434;
+    line-height: 2.4em;
+}
+.content .pinglun a i{
+    margin-right: 5px;
+    color: #696A6B;
+    font-size: 1.2em;
+}
+.foot{
+    width: 100%;
+    text-align: center;
+    color: #3e3e3e;
+    /* margin:5% 0; */
+
+}
+.foot a{
+    color: #3e3e3e;
+    margin-bottom: 2%;
+    display: inline-block;
+}
+.foot p{
+    line-height: 1.5em;
+    font-size: .9em;
+    color: #3e3e3e;
+}
+
+
+.last{
+	width: 100%;
+    position: fixed;
+    float: left;
+    bottom: 0px;
+    height: 50px;
+    background-color: #fff;
+}
+.last ul{
+	width: 100%;
+}
+.last ul li{
+	list-style: none;
+    float: left;
+    width: 33%;
+    text-align: center;
+    height: 50px;
+}
+.last ul li a{
+	text-decoration: none;
+	font-size: 20px;
+    color: #333;
+    line-height: 50px;
+}
+.last ul li span{
+	text-decoration: none;
+	font-size: 20px;
+    color: #333;
+    line-height: 50px;
+}
+#liId{
+	border-left: 1px solid #F6F6F6;
+    border-right: 1px solid #F6F6F6;
+    background-color: bisque;
+}
+/* #lbg{
+	background-color: bisque;
+} */

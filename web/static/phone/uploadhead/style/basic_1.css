@@ -1,0 +1,145 @@
+
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, hr, pre, form, fieldset, input, textarea, p, blockquoteth, td { margin: 0px; padding: 0px;}
+h1, h2, h3, h4, h5, h6 { font-size: 1em; font-weight: normal; }
+ul, ol { list-style: none; }
+img{margin:0;padding:0;}
+a{text-decoration:none;color:#333;}
+em,i{font-style: normal;}
+body{
+    font-family:"Microsoft Yahei",Tahoma,Arial,Helvetica,STHeiti;
+    font-size:1em;
+
+}
+@media screen and (max-width:320px) {
+    body{font-size:0.9em;}
+}
+@media screen and (min-width:321px) and (max-width:400px){
+    body{font-size:1em;}
+}
+
+.heading{
+    width:100%;
+    height:50px;
+    line-height:50px;
+    color:#333;
+    text-align:center;
+    font-size:18px;
+    letter-spacing:1px;
+    background-color: #fff;
+
+}
+.tophead{
+    
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    opacity: 1;
+    z-index: 999;
+}
+
+.top_head{
+    z-index: 999;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+}
+.heading span{
+    margin-right: 18px;
+}
+.heading a.back{
+    width:12px;
+    height:22px;
+    float:left;
+    display:inline-block;
+    background:url(/home/uploadhead/images/left.png) no-repeat;
+    margin-top:14px;
+    margin-left:18px;
+}
+.heading a.white{
+    background:url(../images/header04.png) no-repeat;
+}
+.heading a.share{
+    display:inline-block;
+    width:35px;
+    height:35px;
+    background: url(../images/wmp_share.png) no-repeat;
+    float:right;
+    background-size:60%;
+    margin-top:15px;
+    margin-right:0px;
+}
+.heading a.more{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    line-height:20px;
+    text-align:center;
+    background:url(../images/header02.png) no-repeat;
+    float:right;
+    margin-right:18px;
+    border:1px solid #333;
+    margin-top:13px;
+    border-radius:50%;
+}
+.head_bottom{
+    width:100%;
+    height:5px;
+    background-image:url(/home/uploadhead/images/xuxian_bj.jpg);
+    margin-bottom: 5%;
+}
+
+.real_wangcheng{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.real_wangcheng img{
+    width: 55px;
+    height: 55px;
+    margin-bottom: 10%;
+
+}
+.share_gengh{
+    width: 80%;
+    display:none;
+    position: fixed;
+    top:30%;
+    left: 10%;
+    z-index:9999;
+    background-color:#fff;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    border: 1px solid #ccc;
+
+}
+.share_gengh p{
+    line-height: 1.5em;
+}
+.share_gengh input{
+    border: 1px solid #333;
+    border-radius: 0.2em;
+    color: #204fa1;
+    padding: 2% 4%;
+    background:none;
+    margin-top: 5%;
+    font-family: "Microsoft Yahei";
+}
+.share_gengh .delete{
+    position: absolute;
+    top:8%;
+    right:3%;
+}
+.mm{
+    background-color:#999999;
+    position:fixed;
+    top:0%;
+    left:0%;
+    width:100%;
+    height:100%;
+    opacity:0.7;
+    display:none;
+    z-index:1001;
+}

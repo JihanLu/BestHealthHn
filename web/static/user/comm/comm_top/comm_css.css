@@ -1,0 +1,114 @@
+@CHARSET "UTF-8";
+.logo_fottin{
+    width: 1002px;
+    margin: 0 auto;
+    height: 133px;
+    clear: both;
+}
+.logo_fottin img {
+    width: 100%;
+    height: 100%;
+}
+#memu {
+    clear: both;
+    margin: 0 auto;
+    width: 1002px;
+    height: 40px;
+    background: url(banner.png) no-repeat center;
+}
+#memu ul {
+    height: 40px;
+}
+#memu ul li {
+    position: relative;
+    float: left;
+    list-style: none;
+    padding-left: 11px;
+    padding-right: 11px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    min-width: 81px;
+}
+#main_footer_footer ul, li {
+    list-style: none;
+}
+
+.main_top_1 ul, li {
+    list-style-type: none;
+    margin: 0px;
+}
+#memu ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+#memu ul li a:hover{
+	color:#fff954
+}
+
+#main_top {
+    width: 1002px;
+    margin: 0 auto;
+    background: url(sh_20_1.jpg) repeat-x;
+    clear: both;
+}
+#main_top .main_top_1 {
+    margin: 0 auto;
+    height: 30px;
+}
+#main_top .main_top_11 {
+    float: left;
+    font-size: 14px;
+    padding-left: 1%;
+    height: 30px;
+    line-height: 30px;
+    width: 10%;
+}
+.main_top_1 .scrollDiv {
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    float: left;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    width: 500px;
+    text-align: left;
+}
+.main_top_1 ul, li {
+    list-style-type: none;
+    margin: 0px;
+}
+.main_top_1 .scrollDiv li {
+    height: 25px;
+    padding-left: 10px;
+}
+
+#main_footer_footer ul, li {
+    list-style: none;
+}
+
+.main_top_1 ul, li {
+    list-style-type: none;
+    margin: 0px;
+}
+
+.main_top_1 .scrollDiv li {
+    height: 25px;
+    padding-left: 10px;
+}
+#main_top #main_top_12 {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 1%;
+}
+#main_top #main_top_12 {
+    float: right;
+    height: 30px;
+    line-height: 30px;
+    padding-right: 1%;
+}
+#scrollDiv_keleyi_com a{
+    color: #000;
+}

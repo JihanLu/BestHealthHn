@@ -1,0 +1,117 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, hr, pre, form, fieldset, input, textarea, p,blockquoteth,td { margin: 0px; padding: 0px;}
+h1, h2, h3, h4, h5, h6 { font-size: 1em; font-weight: normal; }
+ul, ol { list-style: none; }
+a{text-decoration:none;}
+body{
+    font-family:"Microsoft Yahei",Tahoma,Arial,Helvetica,STHeiti;
+    font-size:1em;
+    background:#F0F0F0;
+}
+div{
+    box-sizing:border-box;
+}
+i,em{
+    font-style:normal;
+}
+textarea{
+    resize:none;
+}
+.head{
+    width:100%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #cbced6;
+    color: #134398;
+    font-weight: bold;
+}
+.head a.back{
+    display: inline-block;
+    width: 12px;
+    height: 22px;
+    background: url(../images/header01.png) no-repeat left center;
+    float: left;
+    margin-top:14px;
+    margin-left:18px;
+}
+.head span{
+    margin-right: 18px;
+    font-size: 18px;
+}
+.head_top{
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 999;
+    background-color: #F0F0F0;
+}
+
+.xuxian{
+    width: 100%;
+}
+.xuxian img{
+    display: block;
+}
+
+.guandian_bottom{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 1.1em;
+    background-color: #3073ea;
+    line-height: 2em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.pin_bottom{
+    width: 100%;
+    border-top: 1px solid #cfd1d5;
+    background-color: #fff;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.pin_bottom a{
+    display: inline-block;
+    text-align: center;
+    float: left;
+    width: 49.65%;
+    border-right: 1px solid #cfd1d5;
+    line-height:2.4em;
+}
+.pin_bottom a i{
+    margin-right: 5px;
+    color: #696A6B;
+}
+.go_top{
+    display: inline-block;
+    position: fixed;
+    right: 3%;
+    bottom: 26%;
+}
+
+.fabu{
+    display: inline-block;
+    position: fixed;
+    right: 3%;
+    bottom: 6%;
+}
+.go_top img,.fabu img{
+    width: 70px;
+    height: 70px;
+}
+.guandian_bottom{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 1.1em;
+    background-color: #3073ea;
+    line-height: 2em;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
